@@ -195,8 +195,8 @@ const Footer = () => {
                         </h3>
                         <nav className="flex flex-col space-y-2">
                              {/* Added quick-link-item class */}
-                            <a className="footer-link quick-link-item" href="/user/about-us">About Us</a>
-                            <a className="footer-link quick-link-item" href="/user/contact">Contact Us</a>
+                            <Link className="footer-link quick-link-item" to="/user/about-us">About Us</Link>
+                            <Link className="footer-link quick-link-item" to="/user/contact">Contact Us</Link>
                             <a className="footer-link quick-link-item" href="#">Privacy Policy</a>
                             <a className="footer-link quick-link-item" href="#">Terms & Condition</a>
                             <a className="footer-link quick-link-item" href="#">Career</a>
